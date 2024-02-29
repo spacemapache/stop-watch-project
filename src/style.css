@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: #707577;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 15px;
+  background-color: #a39a9f;
+}
+
+button:hover {
+  cursor: pointer;
+}
